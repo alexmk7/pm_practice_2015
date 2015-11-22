@@ -64,7 +64,7 @@
 
 тогда штраф считается по формуле:
 
-![$$\frac{1}{37}\sum_{i}^{37}f\big(\sqrt{(x_i - \hat{x_i})^2 + (y_i - \hat{y_i})^2}\big)$$](http://quicklatex.com/cache3/89/ql_e4b6d6cb6aa7a015bb3df090dc167089_l3.png)
+![$$\frac{1}{37}\sum_{i}^{37}f\big(\sqrt{(x_i - \hat{x_i}))^2 + (y_i - \hat{y_i})^2}\big)$$](http://quicklatex.com/cache3/e1/ql_622c6432161b7744151f079afaa6b7e1_l3.png)
 
 где
 
