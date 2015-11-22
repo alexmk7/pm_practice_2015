@@ -56,19 +56,19 @@
 
 Формально, пусть известны точные координаты остановочных павильонов:
 
-<p align="center">![$$S = \{(x_i, y_i)\}_{i=1}^{37}$$](http://quicklatex.com/cache3/11/ql_101736a3d39a89a08b43817892870111_l3.png)</p>
+![$$S = \{(x_i, y_i)\}_{i=1}^{37}$$](http://quicklatex.com/cache3/11/ql_101736a3d39a89a08b43817892870111_l3.png)
 
 пусть предсказаны следующие координаты остановок:
 
-<p align="center">![$$\hat{S} = \{(\hat{x_i}, \hat{y_i}\}_{i=1}^{37}$$](http://quicklatex.com/cache3/ce/ql_71c069308c805123a3179192bad1d2ce_l3.png)</p>
+![$$\hat{S} = \{(\hat{x_i}, \hat{y_i}\}_{i=1}^{37}$$](http://quicklatex.com/cache3/ce/ql_71c069308c805123a3179192bad1d2ce_l3.png)
 
 тогда штраф считается по формуле:
 
-<p align="center">![$$\frac{1}{37}\sum_{i}^{37}f\big(\sqrt{(x_i - \hat{x_i})^2 + (y_i - \hat{y_i})^2}\big)$$](http://quicklatex.com/cache3/89/ql_e4b6d6cb6aa7a015bb3df090dc167089_l3.png)</p>
+![$$\frac{1}{37}\sum_{i}^{37}f\big(\sqrt{(x_i - \hat{x_i})^2 + (y_i - \hat{y_i})^2}\big)$$](http://quicklatex.com/cache3/89/ql_e4b6d6cb6aa7a015bb3df090dc167089_l3.png)
 
 где
-<p align="center">
-![$$f(x) = \begin{cases} 0 &\mbox{if } x \le 20 \\ (x - 20)^2 & \mbox{if } x \gt 20 \end{cases} $$](http://quicklatex.com/cache3/94/ql_809e63a8d70e93f635832f16d6005b94_l3.png)</p>
+
+![$$f(x) = \begin{cases} 0 &\mbox{if } x \le 20 \\ (x - 20)^2 & \mbox{if } x \gt 20 \end{cases} $$](http://quicklatex.com/cache3/94/ql_809e63a8d70e93f635832f16d6005b94_l3.png)
 
 То есть если оценка попадает в круг радиуса *20* от известных координат, то остановка считается угаданной верно. В противном случае начисляется штраф, равный квадрату расстояния от круга. 
 
