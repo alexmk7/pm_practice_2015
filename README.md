@@ -2,7 +2,7 @@
 
 Чтобы получить пароль к тестовому серверу, нужно пройти по [ссылке](http://54.228.65.41/2015/register) и вбить туда своё ФИО и номер группы в том виде, в котором оно было послало старостой. Запросить пароль на своё имя можно один раз (так что лучше его записать), если кто-то успел это сделать до вас, то претензии принимаются до 02/12/2015 .
 
-Задачи проверяются автоматически, для этого нужно зайти на соответствующий тестовый сервер, ввести пароль, комментарий и загрузить файл.
+Задачи проверяются автоматически, для этого нужно зайти на соответствующий тестовый сервер, ввести пароль, комментарий и загрузить файл. На на каждое задание дается 20 попыток.
 
 В комментарий нужно ввести краткое описание своего алгоритма, если описание слишком большое, то можно оставить ссылку на сервис вроде http://pastebin.com .
 
@@ -31,7 +31,7 @@
 >    **1447037729**&nbsp;&nbsp;&lt;tab&gt;&nbsp;&nbsp;**3054.619968**&nbsp;&nbsp;&lt;tab&gt;&nbsp;&nbsp;**2409.828279**&nbsp;&nbsp;&lt;tab&gt;&nbsp;&nbsp;**570d8**
 
 поля разделены табуляцией. Здесь:
-- **1447037729** - [UNIX-время](https://ru.wikipedia.org/wiki/UNIX-%D0%B2%D1%80%D0%B5%D0%BC%D1%8F), который без труда можно преобразовать во что-то разумное с помощью стандартной библиотеки  любимого языка программирования ([Java](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html#ofEpochSecond-long-), [C#](http://stackoverflow.com/questions/249760/how-to-convert-a-unix-timestamp-to-datetime-and-vice-versa), [Python](https://docs.python.org/2/library/datetime.html#datetime.date.fromtimestamp), [Go](https://golang.org/pkg/time/#Unix)).
+- **1447037729** - [UNIX-время](https://ru.wikipedia.org/wiki/UNIX-%D0%B2%D1%80%D0%B5%D0%BC%D1%8F), которое без труда можно преобразовать во что-то разумное с помощью стандартной библиотеки  любимого языка программирования ([Java](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html#ofEpochSecond-long-), [C#](http://stackoverflow.com/questions/249760/how-to-convert-a-unix-timestamp-to-datetime-and-vice-versa), [Python](https://docs.python.org/2/library/datetime.html#datetime.date.fromtimestamp), [Go](https://golang.org/pkg/time/#Unix)).
 - **3054.619968** - координата "x"
 - **2409.828279** - координата "y"
 - **570d8** - уникальный идентификатор транспортного средства, от которого получен сигнал. 
