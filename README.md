@@ -56,17 +56,19 @@
 
 Формально, пусть известны точные координаты остановочных павильонов:
 
-![$$S = \{(x_i, y_i)\}_{i=1}^{37}$$](https://latex.codecogs.com/gif.latex?%24%24S%20%3D%20%5C%7B%28x_i%2C%20y_i%29%5C%7D_%7Bi%3D1%7D%5E%7B37%7D%24%24)
+<center>![$$S = \{(x_i, y_i)\}_{i=1}^{37}$$](http://quicklatex.com/cache3/11/ql_101736a3d39a89a08b43817892870111_l3.png)</center>
 
 пусть предсказаны следующие координаты остановок:
 
-![$$\hat{S} = \{(\hat{x_i}, \hat{y_i}\}_{i=1}^{37}$$](https://latex.codecogs.com/gif.download?%24%24%5Chat%7BS%7D%20%3D%20%5C%7B%28%5Chat%7Bx_i%7D%2C%20%5Chat%7By_i%7D%5C%7D_%7Bi%3D1%7D%5E%7B37%7D%24%24)
+<center>![$$\hat{S} = \{(\hat{x_i}, \hat{y_i}\}_{i=1}^{37}$$](http://quicklatex.com/cache3/ce/ql_71c069308c805123a3179192bad1d2ce_l3.png)</center>
 
 тогда штраф считается по формуле:
-![$$ \frac{1}{37}\sum_{i}^{37}f\big(\sqrt{(x_i - \hat{x_i})^2 + (y_i - \hat{y_i})^2}\big)$$](https://latex.codecogs.com/gif.download?%24%24%20%5Cfrac%7B1%7D%7B37%7D%5Csum_%7Bi%7D%5E%7B37%7Df%5Cbig%28%5Csqrt%7B%28x_i%20-%20%5Chat%7Bx_i%7D%29%5E2%20+%20%28y_i%20-%20%5Chat%7By_i%7D%29%5E2%7D%5Cbig%29%20%24%24)
+
+<center>![$$\frac{1}{37}\sum_{i}^{37}f\big(\sqrt{(x_i - \hat{x_i})^2 + (y_i - \hat{y_i})^2}\big)$$](http://quicklatex.com/cache3/89/ql_e4b6d6cb6aa7a015bb3df090dc167089_l3.png)</center>
 
 где
-![$$f(x) =   \begin{cases} 0 &\mbox{if } x \le 20 \\ (x - 20)^2 & \mbox{if } x \gt 20 \end{cases} $$](https://latex.codecogs.com/gif.download?%24%24f%28x%29%20%3D%20%5Cbegin%7Bcases%7D%200%20%26%5Cmbox%7Bif%20%7D%20x%20%5Cle%2020%20%5C%5C%20%28x%20-%2020%29%5E2%20%26%20%5Cmbox%7Bif%20%7D%20x%20%3E%2020%20%5Cend%7Bcases%7D%20%24%24)
+<center>
+![$$f(x) = \begin{cases} 0 &\mbox{if } x \le 20 \\ (x - 20)^2 & \mbox{if } x \gt 20 \end{cases} $$](http://quicklatex.com/cache3/94/ql_809e63a8d70e93f635832f16d6005b94_l3.png)</center>
 
 То есть если оценка попадает в круг радиуса *20* от известных координат, то остановка считается угаданной верно. В противном случае начисляется штраф, равный квадрату расстояния от круга. 
 
