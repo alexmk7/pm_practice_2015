@@ -60,14 +60,14 @@
 
 пусть предсказаны следующие координаты остановок:
 
-![$$\hat{S} = \{(\hat{x_i}, \hat{y_i}\}_{i=1}^{37}$$](http://quicklatex.com/cache3/ce/ql_71c069308c805123a3179192bad1d2ce_l3.png)
+![$$\hat{S} = \{(\hat{x_i}, \hat{y_i}\}_{i=1}^{37}$$](http://quicklatex.com/cache3/e1/ql_622c6432161b7744151f079afaa6b7e1_l3.png)
 
 тогда штраф считается по формуле:
 
-![$$\frac{1}{37}\sum_{i}^{37}f\big(\sqrt{(x_i - \hat{x_i}))^2 + (y_i - \hat{y_i})^2}\big)$$](http://quicklatex.com/cache3/e1/ql_622c6432161b7744151f079afaa6b7e1_l3.png)
+![$$\frac{1}{37}\sum_{i}^{37}f\big(\sqrt{(x_i - \hat{x_i}))^2 + (y_i - \hat{y_i})^2}\big)$$](http://quicklatex.com/cache3/89/ql_e4b6d6cb6aa7a015bb3df090dc167089_l3.png)
 
 где
-
+http://quicklatex.com/cache3/89/ql_e4b6d6cb6aa7a015bb3df090dc167089_l3.png
 ![$$f(x) = \begin{cases} 0 &\mbox{if } x \le 20 \\ (x - 20)^2 & \mbox{if } x \gt 20 \end{cases} $$](http://quicklatex.com/cache3/94/ql_809e63a8d70e93f635832f16d6005b94_l3.png)
 
 То есть если оценка попадает в круг радиуса *20* от известных координат, то остановка считается угаданной верно. В противном случае начисляется штраф, равный квадрату расстояния от круга. 
